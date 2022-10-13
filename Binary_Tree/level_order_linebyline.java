@@ -24,10 +24,10 @@ class Node{
                    q.add(node.right);
                q.size()--;
            }
-           //adding the level list in answer.
+           
            result.add(level);
 
-       //returning the final list.
+       
        return result;
 
    }*/
