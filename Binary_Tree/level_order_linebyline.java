@@ -9,7 +9,7 @@ class Node{
     }
 }
     public class Main {
-  /* static ArrayList<ArrayList<Integer>>level_line_by_line(Node node){
+  static ArrayList<ArrayList<Integer>>level_line_by_line(Node node){
        Queue<Node> q = new LinkedList<>();
        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
        ArrayList<Integer> level = new ArrayList<Integer>();
@@ -30,7 +30,7 @@ class Node{
        
        return result;
 
-   }*/
+   }
 
    //Method 2
    static ArrayList<ArrayList<Integer>> levelOrder(Node node) {
